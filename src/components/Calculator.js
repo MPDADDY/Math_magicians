@@ -1,6 +1,7 @@
 import React from 'react';
 import './Calculator.css';
 import InputText from './InputText';
+import InputButton from './InputButton';
 
 const Calculator = () => (
   <section className="calculator_container">
@@ -11,33 +12,33 @@ const Calculator = () => (
 
       <article className="calcButtons_container">
         <div className="buttons">
-          <input type="button" value="AC" />
-          <input type="button" value="+/-" />
-          <input type="button" value="%" />
-          <input className="operators" type="button" value="&divide;" />
+          <InputButton value="AC" />
+          <InputButton value="+/-" />
+          <InputButton value="%" />
+          <InputButton className="operators" value="&divide;" />
         </div>
         <div className="buttons">
-          <input type="button" value="7" />
-          <input type="button" value="8" />
-          <input type="button" value="9" />
-          <input className="operators" type="button" value="&times;" />
+          <InputButton value="7" />
+          <InputButton value="8" />
+          <InputButton value="9" />
+          <InputButton className="operators" value="&times;" />
         </div>
         <div className="buttons">
-          <input type="button" value="4" />
-          <input type="button" value="5" />
-          <input type="button" value="6" />
-          <input className="operators" type="button" value="&minus;" />
+          <InputButton value="4" />
+          <InputButton value="5" />
+          <InputButton value="6" />
+          <InputButton className="operators" type="button" value="&minus;" />
         </div>
         <div className="buttons">
-          <input type="button" value="1" />
-          <input type="button" value="2" />
-          <input type="button" value="3" />
-          <input className="operators" type="button" value="&#43;" />
+          <InputButton value="1" />
+          <InputButton value="2" />
+          <InputButton value="3" />
+          <InputButton className="operators" type="button" value="&#43;" />
         </div>
         <div className="buttonsLast">
-          <input type="button" value="0" />
-          <input type="button" value="&#46;" />
-          <input className="operators" type="button" value="=" />
+          <InputButton value="0" />
+          <InputButton value="&#46;" />
+          <InputButton className="operators" type="button" value="=" />
         </div>
       </article>
     </form>
