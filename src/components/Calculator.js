@@ -34,7 +34,7 @@ const Calculator = () => {
             <InputButton value="7" onClick={() => handleButtonClick('7')} />
             <InputButton value="8" onClick={() => handleButtonClick('8')} />
             <InputButton value="9" onClick={() => handleButtonClick('9')} />
-            <InputButton className="operators" value="&times;" onClick={ () => handleButtonClick('x')} />
+            <InputButton className="operators" value="&times;" onClick={() => handleButtonClick('x')} />
           </div>
           <div className="buttons">
             <InputButton value="4" onClick={() => handleButtonClick('4')} />
