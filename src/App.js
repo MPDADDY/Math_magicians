@@ -1,13 +1,12 @@
 import './App.css';
 
 import Calculator from './components/Calculator';
+import Header from './components/Header';
 
 function App() {
   return (
     <div className="App">
-      <header>
-        <h1>Math Magicians</h1>
-      </header>
+      <Header />
       <Calculator />
     </div>
   );
