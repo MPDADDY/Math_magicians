@@ -1,11 +1,36 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(176, 178, 179);
+  padding: 12px 50px;
+}
+
+.navButtons {
+  display: flex;
+  gap: 40px;
+}
+
+.navButtons button {
+  padding: 5px 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 2px solid gray;
+}
+
+.navButtons button:active {
+  background-color: white;
+}
+
 .calculator_container {
   border: 1px solid black;
   border-radius: 5px;
   background-color: rgb(9, 60, 105);
-  width: 600px;
+  width: 400px;
   height: auto;
   position: fixed;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   overflow-y: hidden;
@@ -14,7 +39,7 @@
 .buttons {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  height: 100px;
+  height: 70px;
 }
 
 .operators {
@@ -55,7 +80,7 @@ input[type=button]:hover {
 .buttonsLast {
   display: grid;
   grid-template-columns: 2fr repeat(2, 1fr);
-  height: 100px;
+  height: 70px;
 }
 
 .display {
