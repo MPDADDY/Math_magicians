@@ -67,7 +67,7 @@ function Quote() {
   }
 
   return (
-    <div>
+    <div className="quotes">
       <h2>Today&apos;s quote</h2>
       <p>{quote}</p>
       <p>{author}</p>
