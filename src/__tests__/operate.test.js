@@ -1,8 +1,35 @@
 import operate from '../logic/operate';
 
-test('should perform addition correctly', () => {
-  const addition = operate('5', '3', '+');
-  const subtraction = operate('5', '3', '-');
-  expect(addition).toEqual('8');
-  expect(subtraction).toEqual('2');
+describe('operate function', () => {
+  it('should add two numbers', () => {
+    expect(operate(2, 3, '+')).toBe('5');
+  });
+
+  it('should subtract two numbers', () => {
+    expect(operate(5, 3, '-')).toBe('2');
+  });
+
+  it('should multiply two numbers', () => {
+    expect(operate(4, 2, 'x')).toBe('8');
+  });
+
+  it('should divide two numbers', () => {
+    expect(operate(6, 2, '÷')).toBe('3');
+  });
+
+  it('should handle division by zero', () => {
+    expect(operate(5, 0, '÷')).toBe("Can't divide by 0.");
+  });
+
+  it('should find modulo of two numbers', () => {
+    expect(operate(7, 3, '%')).toBe('1');
+  });
+
+  it('should handle modulo with divisor as zero', () => {
+    expect(operate(5, 0, '%')).toBe("Can't find modulo as can't divide by 0.");
+  });
+
+  it('should throw an error for an unknown operation', () => {
+    expect(() => operate(2, 3, '&')).toThrow("Unknown operation '&'");
+  });
 });
