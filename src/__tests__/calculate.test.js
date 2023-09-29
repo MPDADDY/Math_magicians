@@ -1,5 +1,6 @@
-import calculate from "../logic/calculate";
-{/*import {render, screen, fireEvent} from '@testing-library/react';*/}
+import calculate from '../logic/calculate';
+
+{ /* import {render, screen, fireEvent} from '@testing-library/react'; */ }
 
 test('should reset the calculator when AC button is pressed', () => {
   const initialState = {

@@ -1,4 +1,4 @@
-import operate from "../logic/operate";
+import operate from '../logic/operate';
 
 test('should perform addition correctly', () => {
   const addition = operate('5', '3', '+');
