@@ -1,5 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`InputButton Component renders without crashing 1`] = `
+<input
+  className="test-button"
+  onClick={[Function]}
+  type="button"
+  value="Click Me"
+/>
+`;
+
+exports[`InputText Component renders without crashing 1`] = `
+<input
+  className="test-input"
+  onClick={[Function]}
+  type="button"
+  value="Test Input"
+/>
+`;
+
 exports[`components renders correctly calculator components renders correctly 1`] = `
 <section
   className="calculator_container"
