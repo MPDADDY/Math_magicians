@@ -1,0 +1,184 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputButton Component renders without crashing 1`] = `
+<input
+  className="test-button"
+  onClick={[Function]}
+  type="button"
+  value="Click Me"
+/>
+`;
+
+exports[`InputText Component renders without crashing 1`] = `
+<input
+  className="test-input"
+  onClick={[Function]}
+  type="button"
+  value="Test Input"
+/>
+`;
+
+exports[`components renders correctly calculator components renders correctly 1`] = `
+<section
+  className="calculator_container"
+>
+  <form
+    action=""
+  >
+    <div>
+      <input
+        className="inputText"
+        onClick={[Function]}
+        type="button"
+        value="0"
+      />
+    </div>
+    <article
+      className="calcButtons_container"
+    >
+      <div
+        className="buttons"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="AC"
+        />
+        <input
+          onClick={[Function]}
+          type="button"
+          value="+/-"
+        />
+        <input
+          onClick={[Function]}
+          type="button"
+          value="%"
+        />
+        <input
+          className="operators"
+          onClick={[Function]}
+          type="button"
+          value="÷"
+        />
+      </div>
+      <div
+        className="buttons"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="7"
+        />
+        <input
+          onClick={[Function]}
+          type="button"
+          value="8"
+        />
+        <input
+          onClick={[Function]}
+          type="button"
+          value="9"
+        />
+        <input
+          className="operators"
+          onClick={[Function]}
+          type="button"
+          value="×"
+        />
+      </div>
+      <div
+        className="buttons"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="4"
+        />
+        <input
+          onClick={[Function]}
+          type="button"
+          value="5"
+        />
+        <input
+          onClick={[Function]}
+          type="button"
+          value="6"
+        />
+        <input
+          className="operators"
+          onClick={[Function]}
+          type="button"
+          value="−"
+        />
+      </div>
+      <div
+        className="buttons"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="1"
+        />
+        <input
+          onClick={[Function]}
+          type="button"
+          value="2"
+        />
+        <input
+          onClick={[Function]}
+          type="button"
+          value="3"
+        />
+        <input
+          className="operators"
+          onClick={[Function]}
+          type="button"
+          value="+"
+        />
+      </div>
+      <div
+        className="buttonsLast"
+      >
+        <input
+          onClick={[Function]}
+          type="button"
+          value="0"
+        />
+        <input
+          onClick={[Function]}
+          type="button"
+          value="."
+        />
+        <input
+          className="operators"
+          onClick={[Function]}
+          type="button"
+          value="="
+        />
+      </div>
+    </article>
+  </form>
+</section>
+`;
+
+exports[`components renders correctly home components renders correctly 1`] = `
+<div
+  className="home"
+>
+  <h1>
+    Welcome on board
+  </h1>
+  <p>
+    This is a React web App  for arithmetic and scientific calculations.
+  </p>
+  <p>
+    Navigate to calculator whenever you want to do some atithmetic calculations
+  </p>
+</div>
+`;
+
+exports[`components renders correctly quote components renders correctly 1`] = `
+<div>
+  Loading...
+</div>
+`;
