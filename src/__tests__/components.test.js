@@ -6,7 +6,6 @@ import Calculator from '../components/Calculator';
 import Quote from '../components/Quote';
 
 describe('components renders correctly', () => {
-
   it('renders the Home component with content', () => {
     const result = Home();
     expect(result).toEqual(
@@ -20,22 +19,22 @@ describe('components renders correctly', () => {
 
   it('home components renders correctly', () => {
     const tree = renderer
-    .create(<Home page="/">Home</Home>)
-    .toJSON();
+      .create(<Home page="/">Home</Home>)
+      .toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('calculator components renders correctly', () => {
     const tree = renderer
-    .create(<Calculator page="/Calculator">Calculator</Calculator>)
-    .toJSON();
+      .create(<Calculator page="/Calculator">Calculator</Calculator>)
+      .toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('quote components renders correctly', () => {
     const tree = renderer
-    .create(<Quote page="/Quote">Quotes</Quote>)
-    .toJSON();
+      .create(<Quote page="/Quote">Quotes</Quote>)
+      .toJSON();
     expect(tree).toMatchSnapshot();
   });
 });
