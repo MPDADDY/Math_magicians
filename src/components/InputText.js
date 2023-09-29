@@ -2,6 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function InputButton(props) {
+  InputButton.propTypes = {
+    value: PropTypes.string.isRequired,
+    className: PropTypes.string.isRequired,
+    onClick: PropTypes.func.isRequired,
+  };
+
   const { value, className, onClick } = props;
 
   return (
@@ -13,11 +19,5 @@ function InputButton(props) {
     />
   );
 }
-
-InputButton.propTypes = {
-  value: PropTypes.string.isRequired,
-  className: PropTypes.string.isRequired,
-  onClick: PropTypes.func.isRequired,
-};
 
 export default InputButton;
